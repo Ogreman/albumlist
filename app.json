@@ -48,11 +48,11 @@
   "formation": {
     "web": {
         "quantity": 1,
-        "size": "free"
+        "size": "eco"
     },
     "worker": {
         "quantity": 1,
-        "size": "free"
+        "size": "eco"
     }
   },
   "image": "heroku/python",
@@ -62,10 +62,10 @@
       "plan": "scheduler:standard"
     },
     {
-      "plan": "heroku-redis:hobby-dev"
+      "plan": "heroku-redis:mini"
     },
     {
-      "plan": "heroku-postgresql",
+      "plan": "heroku-postgresql:mini",
       "options": {
         "version": "9.5"
       }
